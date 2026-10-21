@@ -13,7 +13,7 @@ screen_w = root.winfo_screenwidth()
 screen_h = root.winfo_screenheight()
 
 BAR_HEIGHT = int(screen_h / 4)  # ربع ارتفاع الشاشة تماماً
-SHOW_TIMEOUT = 5.0             # 5 ثواني وتختفي الإضاءة
+SHOW_TIMEOUT = 1.0             # 1 ثواني وتختفي الإضاءة
 
 # تحديد مقاسات ومكان الشريط في أسفل الشاشة
 root.geometry(f"{screen_w}x{BAR_HEIGHT}+0+{screen_h - BAR_HEIGHT}")
